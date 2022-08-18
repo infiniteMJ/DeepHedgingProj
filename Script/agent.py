@@ -52,7 +52,7 @@ class DQNet:
 
                 
     # Act function
-    def act(self, state, eps=0.):
+    def act(self, state, eps=1e-3):
         """
         Returns actions for given state as per current policy.
         
